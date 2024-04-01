@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Preahvihear&display=swap');
+
+body {
+    font-family: Poppins, sans-serif;
+    border-radius: 0 !important;
+    background-color: #0F0E0D;
+    color: #D9D9D9;
+}
+
+* {
+    border-radius: 0 !important;
+}
+
+h1 {
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 20px;
+
+}
+
+nav{
+    background-color: #16141A;
+}
+
+/* Estilos personalizados */
+.navbar-brand {
+    margin-right: 15px; /* Espaçamento entre os ícones */
+}
+
+.final{
+    font-family: "Preahvihear", sans-serif !important;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+}
+
+.navbar-nav {
+    display: flex;
+    align-items: center;
+}
+
+
+#input-container {
+    margin: 20px auto;
+    text-align: center;
+}
+
+#result-container {
+    margin: 20px auto;
+    text-align: center;
+}
+
+/* Estilo para os inputs */
+input[type="text"],
+input[type="number"] {
+    border-radius: 5px !important;
+    /* Bordas arredondadas */
+    background-color: transparent;
+    /* Cor de fundo transparente */
+    font-size: 14px;
+    /* Tamanho da fonte menor */
+    padding: 2px;
+    /* Espaçamento interno */
+    border: 0px solid #2b2b2b;
+    /* Borda com cor cinza */
+}
+
+.custom-button {
+    background-color: #D23936;
+    border-radius: 5px !important;
+    text-transform: uppercase;
+    color: #0F0E0D;
+    font-weight: 500;
+    font-size: 10px;
+    padding: 5px;
+}
+
+.custom-card {
+    background-color: #181616;
+    border-radius: 15px !important;
+    padding: 15px;
+    color: white;
+}
+
+.custom-button:hover {
+    background-color: #181616; /* Cor alternativa quando o mouse passa sobre o botão */
+}
