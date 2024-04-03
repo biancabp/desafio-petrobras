@@ -1,13 +1,20 @@
 [![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/-6Kexz9E)
-## Desafio Petrobras
+## Resolução - Desafio Petrobras
 
-Você foi contratado para desenvolver um sistema para estimar a vazão de um fluido que passa por uma placa de orifício de uma refinaria de petróleo da Petrobras. Para isso, você decidiu por escrever um código em JavaScript para tal processamento.
+Esse sistema, desenvolvido em JavaScript, busca estimar a vazão de um fluido que passa por uma placa de orifício de uma refinaria de petróleo da Petrobras. 
+![Desafio Petrobras - Sistema](imgs/sistema.png)
 
-Para o correto processamento, os dados precisarão passar por três etapas:
-
+O qual, o código passa por três etapas:
 1. Remover dados espúrios;
 2. Estimar a vazão a partir de outros parâmetros;
 3. Realizar a totalização através de um cálculo de integração.
+
+Ademais, o sistema conta com uma interface Front-end para que o usuário consiga ter uma facilidade de uso de modo intituivo e eficiente, juntamente com uma iteratividade maior e melhor visualização dos dados.
+
+
+
+
+## Desafio Petrobras
 
 A seguir, serão fornecedos os detalhes para a implementação de cada etapa:
 
