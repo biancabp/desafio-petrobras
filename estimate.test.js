@@ -1,3 +1,5 @@
+// Desenvolvido por: Bianca Bezerra Pires
+
 const estimate = require('./estimate');
 
 test('to be NaN', () => {

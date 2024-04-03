@@ -1,3 +1,5 @@
+// Desenvolvido por: Bianca Bezerra Pires
+
 /**
  * Estima a vazão mássica
  * @param {*} d1 Diâmetro da seção 1
@@ -10,9 +12,9 @@
 function estimate(d1, d2, ro, p1, p2){
    if (d1 <= 0 || d2 <= 0 || ro <= 0 || p1 <= 0 || p2 <= 0) {
       if (d1 === 0 && d2 === 0 && ro === 0 && p1 === 0 && p2 === 0) {
-         return NaN; // Todos os parâmetros são zero, retorna NaN
+         return NaN; 
      } else {
-         return 0; // Qualquer outro caso de entrada inválida, retorna 0
+         return 0; 
      }
  }
    

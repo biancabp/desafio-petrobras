@@ -1,3 +1,4 @@
+// Desenvolvido por: Bianca Bezerra Pires
 const integrate = require('./integrate');
 
 test('to be zero', () => {

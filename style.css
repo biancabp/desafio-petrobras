@@ -65,6 +65,7 @@ input[type="number"] {
     /* Espaçamento interno */
     border: 0px solid #2b2b2b;
     /* Borda com cor cinza */
+    color: #D9D9D9;
 }
 
 .custom-button {

@@ -1,3 +1,4 @@
+// Desenvolvido por: Bianca Bezerra Pires
 const data = []
 for (i = 0;i<90;i++){
     const s = Math.random()
