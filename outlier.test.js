@@ -1,4 +1,4 @@
-// Desenvolvido por: Bianca Bezerra Pires
+// Desenvolvido por: Bianca Bezerra Pires.
 const removeOutlier = require('./outlier');
 
 test('to be empty', () => {

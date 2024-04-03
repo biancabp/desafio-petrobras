@@ -1,3 +1,5 @@
+/* Desenvolvido por: Bianca Bezerra Pires. */
+
 @import url('https://fonts.googleapis.com/css2?family=Preahvihear&display=swap');
 
 body {
@@ -24,9 +26,8 @@ nav{
     background-color: #16141A;
 }
 
-/* Estilos personalizados */
 .navbar-brand {
-    margin-right: 15px; /* Espaçamento entre os ícones */
+    margin-right: 15px; 
 }
 
 .final{
@@ -52,19 +53,13 @@ nav{
     text-align: center;
 }
 
-/* Estilo para os inputs */
 input[type="text"],
 input[type="number"] {
     border-radius: 5px !important;
-    /* Bordas arredondadas */
     background-color: transparent;
-    /* Cor de fundo transparente */
     font-size: 14px;
-    /* Tamanho da fonte menor */
     padding: 2px;
-    /* Espaçamento interno */
     border: 0px solid #2b2b2b;
-    /* Borda com cor cinza */
     color: #D9D9D9;
 }
 
@@ -86,5 +81,5 @@ input[type="number"] {
 }
 
 .custom-button:hover {
-    background-color: #181616; /* Cor alternativa quando o mouse passa sobre o botão */
+    background-color: #181616; 
 }

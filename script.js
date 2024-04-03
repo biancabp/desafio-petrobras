@@ -1,3 +1,5 @@
+//Desenvolvido por: Bianca Bezerra Pires.
+
 // Função para lidar com o envio do formulário de detecção de outliers
 const outlierForm = document.getElementById('outlierForm');
 const outlierResult = document.getElementById('outlierResult');
@@ -32,19 +34,15 @@ integrateForm.addEventListener('submit', (event) => {
     event.preventDefault();
     const integrateData = document.getElementById('integrateData').value;
     
-    // Converta os dados para o formato necessário para a integração numérica
     const data = integrateData.split(',').map(item => {
         const [x, y] = item.trim().split(' ').map(Number);
         return { x, y };
     });
     
     try {
-        // Chame a função de integração numérica e armazene o resultado
         const integrationResult = integrate(data);
-        // Exiba o resultado na div "integrateResult"
         integrateResult.textContent = `Resultado da integração: ${integrationResult}`;
     } catch (error) {
-        // Se ocorrer um erro, exiba uma mensagem de erro na div "integrateResult"
         integrateResult.textContent = `Erro: ${error.message}`;
     }
 });
